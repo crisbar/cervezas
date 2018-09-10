@@ -17,5 +17,5 @@ const losPepe = alumnos.filter(
   //3 iguales  en valor y en tipo
   (alumno) => { return alumno.nombre === 'pepe' }
 )
-
+//aplicamos cambios ???
 console.log(losPepe)
