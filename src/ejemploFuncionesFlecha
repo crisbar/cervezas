@@ -1,0 +1,21 @@
+const alumnos = [
+  {
+  nombre: 'pepe',
+  apellido: 'perez'
+  },
+  {
+    nombre: 'juan',
+    apellido: 'gómez'
+  }
+]
+
+//queremos una función que nos muestre todos los alumnos que se llamen pepe
+//usaremos filter, que es una función a la que le tenemos
+//que pasar una función ?¿
+
+const losPepe = alumnos.filter(
+  //3 iguales  en valor y en tipo
+  (alumno) => { return alumno.nombre === 'pepe' }
+)
+
+console.log(losPepe)
